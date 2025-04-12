@@ -1,7 +1,9 @@
 # Particle Importance Analysis (PIA) - Demo
 PIA - A Fast Localization Method Under Indeterminate Magnetic Sources
 
-This repository contains a demo program for **Particle Importance Analysis (PIA)**, a method used for efficient probabilistic estimation and localization. This demo showcases the basic functionality of the PIA algorithm.
+This repository contains a demo program for **Particle Importance Analysis (PIA)**, an algorithm designed for efficient localization using Hall sensor data. PIA is capable of localizing a **target magnet (IPM)** in the presence of **external magnetic interference (EMSs/EMs/EPMs)**, without requiring prior knowledge of the dipole moments of the surrounding magnetic sources.
+
+Instead of explicitly subtracting external fields, PIA directly infers the position of the target magnet while simultaneously estimating the dipole moments of interfering sources, enabling **robust and accurate localization in complex magnetic environments**.
 
 ## 🧪 Usage
 
@@ -17,13 +19,19 @@ To run the demo:
 
 > ✅ Tested on MATLAB 2022a+. It may also work on earlier versions, but compatibility is not guaranteed.
 
-## 📺 Demo (GIFs)
+## 📺 Demo & Highlights
 
-_Animated demonstrations will be shown here:_
+These examples highlight the core strengths of the PIA algorithm:
 
-- ![Demo 1](path/to/demo1.gif)
-- ![Demo 2](path/to/demo2.gif)
-- ![Demo 3](path/to/demo3.gif)
+- **High Computational Efficiency**  
+  ![Efficiency Demo](Demo/demo1.gif)
+
+- **Robust to Inaccurate Initial Guess**  
+  ![Initial Guess Demo](Demo/demo2.gif)
+
+- **Strong Robustness Against Noise and Disturbance**  
+  10% noise on sensor readings
+  ![Robustness Demo](Demo/demo3.gif)
 
 ## 📄 Source Code Release
 

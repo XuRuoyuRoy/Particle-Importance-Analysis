@@ -23,19 +23,22 @@ To run the demo:
 
 These examples highlight the core strengths of the PIA algorithm:
 
-<div align="center">
+
 
 **High Computational Efficiency**  
+<div align="center">
   <img src="Demo/demo1.gif" width="50%" />
-
+</div>
 **Robust to Inaccurate Initial Guess**  
+<div align="center">
   <img src="Demo/demo2.gif" width="50%" />
-
+</div>
 **Strong Robustness Against Noise and Disturbance**  
   10% noise on sensor readings
+<div align="center">
   <img src="Demo/demo3.gif" width="50%" />
+</div>
 
-  </div>
 
 ## 📄 Source Code Release
 

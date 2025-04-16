@@ -31,35 +31,34 @@ These examples highlight the core strengths of the PIA algorithm:
 </div>
 
 - **Robust to Inaccurate Initial Guess**  
-<div style="width: 100%; display: flex; justify-content: center;">
-  <table style="margin: 0 auto;">
-    <tr>
-      <td style="text-align: center;">
-        <div style="font-size: 6px;"><strong>Tracking trajectory</strong></div>
-        <img src="Demo/demo2.gif" width="300" />
-      </td>
-      <td style="text-align: center;">
-        <div style="font-size: 6px;"><strong>Navigate to specific point</strong></div>
-        <img src="Demo/demo_ig.gif" width="300" />
-      </td>
-    </tr>
-  </table>
-</div>
+<table align="center">
+  <tr>
+    <td style="text-align: center;">
+      <div style="font-size: 6px;"><strong>Tracking trajectory</strong></div>
+      <img src="Demo/demo2.gif" width="300" />
+    </td>
+    <td style="text-align: center;">
+      <div style="font-size: 6px;"><strong>Navigate to specific point</strong></div>
+      <img src="Demo/demo_ig.gif" width="300" />
+    </td>
+  </tr>
+</table>
+
 
 - **Strong Robustness Against Noise and Disturbance**  
   10% noise on sensor readings
-  <table align="center">
-    <tr>
-      <td style="text-align: center;">
-        <div style="font-size: 6px;"><strong>Optimization-Based Method</strong></div>
-        <img src="Demo/demo4.gif" width="300" />
-      </td>
-      <td style="text-align: center;">
-        <div style="font-size: 6px;"><strong>Particle Importance Analysis</strong></div>
-        <img src="Demo/demo3.gif" width="300" />
-      </td>
-    </tr>
-  </table>
+<table align="center">
+  <tr>
+    <td style="text-align: center;">
+      <div style="font-size: 6px;"><strong>Optimization-Based Method</strong></div>
+      <img src="Demo/demo4.gif" width="300" />
+    </td>
+    <td style="text-align: center;">
+      <div style="font-size: 6px;"><strong>Particle Importance Analysis</strong></div>
+      <img src="Demo/demo3.gif" width="300" />
+    </td>
+  </tr>
+</table>
 
 
 

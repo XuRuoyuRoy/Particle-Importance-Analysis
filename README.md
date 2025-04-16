@@ -33,8 +33,8 @@ These examples highlight the core strengths of the PIA algorithm:
 - **Robust to Inaccurate Initial Guess**  
 <table>
   <tr>
-    <td><img src="Demo/demo2.gif" width="45%" /></td>
-    <td><img src="Demo/demo_ig.gif" width="45%" /></td>
+    <td><img src="Demo/demo2.gif" width="300" /></td>
+    <td><img src="Demo/demo_ig.gif" width="300" /></td>
   </tr>
   <tr>
     <td align="center"><strong>Figure 1: Input Image</strong></td>

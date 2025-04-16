@@ -36,7 +36,7 @@ These examples highlight the core strengths of the PIA algorithm:
     <p><strong>Figure 1: Input Image</strong></p>
     <img src="Demo/demo2.gif" width="45%" />
   </div>
-  <div style="flex: 1; margin-left: 10px;">
+  <div style="flex: 2; margin-left: 10px;">
     <p><strong>Figure 2: Output Result</strong></p>
     <img src="Demo/demo_ig.gif" width="45%" />
   </div>

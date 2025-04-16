@@ -48,8 +48,7 @@ These examples highlight the core strengths of the PIA algorithm:
 
 - **Strong Robustness Against Noise and Disturbance**  
   10% noise on sensor readings
-<div style="width: 100%; display: flex; justify-content: center;">
-  <table style="margin: 0 auto;">
+  <table align="center">
     <tr>
       <td style="text-align: center;">
         <div style="font-size: 6px;"><strong>Optimization-Based Method</strong></div>
@@ -61,7 +60,7 @@ These examples highlight the core strengths of the PIA algorithm:
       </td>
     </tr>
   </table>
-</div>
+
 
 
 ## 📄 Source Code Release

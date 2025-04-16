@@ -31,16 +31,18 @@ These examples highlight the core strengths of the PIA algorithm:
 </div>
 
 - **Robust to Inaccurate Initial Guess**  
-<table>
-  <tr>
-    <td><img src="Demo/demo2.gif" width="300" /></td>
-    <td><img src="Demo/demo_ig.gif" width="300" /></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Figure 1: Input Image</strong></td>
-    <td align="center"><strong>Figure 2: Output Result</strong></td>
-  </tr>
-</table>
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <td><img src="Demo/demo2.gif" width="300" /></td>
+      <td><img src="Demo/demo_ig.gif" width="300" /></td>
+    </tr>
+    <tr>
+      <div style="font-size: 14px;"><strong>Figure 1: Input Image</strong></div>
+      <div style="font-size: 14px;"><strong>Figure 2: Input Image</strong></div>
+    </tr>
+  </table>
+</div>
 
 - **Strong Robustness Against Noise and Disturbance**  
   10% noise on sensor readings

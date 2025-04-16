@@ -144,6 +144,24 @@ for i=1:lena
     end
     
     % Particle sampling and importance analysis
+    %===========================================
+    % pia_est.p -- particle importance analysis subfunctions
+    % Inputs: Bsss--sensor readings
+    %         posai -- estimation of IPM position in the previous step
+    %         headai -- estimation of IPM heading in the previous step
+    %         posems -- EPMs' positions
+    %         poss -- sensors' positions
+    %         std_sigp -- Std. dev. of  importance values of particles
+    %         err_iter -- Error reduction ratio
+    %         dp -- vector of course prediction
+    %         lim1 -- Limitation of sapmling range
+    %         scal_lim -- parameter for sampling range adjustment
+    %         p_n -- number of particles
+    % Outputs:idx_sig--Index of dipoles in the particles
+    %         pospaa -- position of all the particles
+    %         headai -- estimation of IPM heading in the previous step
+    %         theta -- calibrated magnetic moments
+    %===========================================
     [idx_sig,pospaa,theta,std_sigp,err_iter,lim1,scal_lim] = pia_est(Bsss,posai,headai,posems,poss,std_sigp,err_iter,dp,lim1,scal_lim,p_n);
     dt=toc(t1);
     tp_ia=tp_ia+dt;

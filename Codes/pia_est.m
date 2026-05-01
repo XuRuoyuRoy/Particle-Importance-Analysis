@@ -1,4 +1,4 @@
-function [idx_sig,posp,theta,std_sigp,err_iter,lim1,scal_lim] = pia_est111(Bs,posai,headai,posa1,poss,std_sigp,err_iter,dp,lim1,scal_lim,p_n)
+function [idx_sig,posp,theta,std_sigp,err_iter,lim1,scal_lim] = pia_est(Bs,posai,headai,posa1,poss,std_sigp,err_iter,dp,lim1,scal_lim,p_n)
     [~,len_ems]=size(posa1);
     len1=p_n; % IPM particles
     len2=len_ems; % EPM particles

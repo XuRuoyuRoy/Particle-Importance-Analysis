@@ -9,7 +9,7 @@ Instead of explicitly subtracting external fields, PIA directly infers the posit
 
 To run the demo:
 
-1. Make sure the file `pia_est.p` is located in the **same folder** as `PIA_DEMO.m`.
+1. Make sure the file `pia_est.m` is located in the **same folder** as `PIA_DEMO.m`.
 2. Open MATLAB (tested on version 2022a and above).
 3. Run the main script:
 

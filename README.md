@@ -17,7 +17,7 @@ To run the demo:
     PIA_DEMO
     ```
 
-> ✅ Tested on MATLAB 2022a+. It may also work on earlier versions, but compatibility is not guaranteed.
+> ✅ Tested on MATLAB 2022a. It may also work on earlier versions, but compatibility is not guaranteed.
 
 ## 📺 Demo & Highlights
 

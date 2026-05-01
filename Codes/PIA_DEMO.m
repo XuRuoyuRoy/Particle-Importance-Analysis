@@ -10,6 +10,7 @@
 %      
 %  Notes:          You can try modifying the values of flag_moment, flag_sensor,
 %                  flag_ig, flag_traj, and p_n in Configuration. 
+%                  More Dtails: https://github.com/XuRuoyuRoy/Particle-Importance-Analysis
 %
 %  Dependencies:   Tested on MATLAB 2022a+ and may work on earlier versions
 %

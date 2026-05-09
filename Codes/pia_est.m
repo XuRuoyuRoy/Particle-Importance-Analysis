@@ -52,7 +52,7 @@ function [idx_sig,posp,theta,std_sigp,err_iter,lim1,scal_lim] = pia_est(Bs,posai
     for j=1:lenp
         cntj=(3*(j-1)+1):(3*j);
         pal=poss-posp(:,j);
-        M_BMz(:,cntj) = -cal_PM_fun_z_a(pal);
+        M_BMz(:,cntj) = cal_PM_fun_z_a(pal);
     end
 
     % Construct parameter matrix
